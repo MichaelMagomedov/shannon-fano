@@ -9,6 +9,6 @@ include "src/Nodes/Node.php";
 include "src/FanoCoder.php";
 
 $fanoCoder = new FanoCoder("/var/www/tik/fano/test.txt");
-$bytes = $fanoCoder->encode(1);
+$bytes = $fanoCoder->encode(2);
 echo $fanoCoder->decodeFile("/var/www/tik/fano/test.txt.huf");
 
